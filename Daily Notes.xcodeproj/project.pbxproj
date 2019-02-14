@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DC2085FD2215BE15005F3305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2085FC2215BE15005F3305 /* AppDelegate.swift */; };
-		DC2085FF2215BE15005F3305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2085FE2215BE15005F3305 /* ViewController.swift */; };
 		DC2086022215BE15005F3305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2086002215BE15005F3305 /* Main.storyboard */; };
 		DC2086052215BE15005F3305 /* Daily_Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC2086032215BE15005F3305 /* Daily_Notes.xcdatamodeld */; };
 		DC2086072215BE18005F3305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2086062215BE18005F3305 /* Assets.xcassets */; };
 		DC20860A2215BE18005F3305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2086082215BE18005F3305 /* LaunchScreen.storyboard */; };
+		DC2086122215C015005F3305 /* ListNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2086112215C015005F3305 /* ListNotesTableViewController.swift */; };
+		DC2086142215C048005F3305 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2086132215C048005F3305 /* AddNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC2085F92215BE15005F3305 /* Daily Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2085FC2215BE15005F3305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC2085FE2215BE15005F3305 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC2086012215BE15005F3305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC2086042215BE15005F3305 /* Daily_Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Notes.xcdatamodel; sourceTree = "<group>"; };
 		DC2086062215BE18005F3305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC2086092215BE18005F3305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC20860B2215BE18005F3305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2086112215C015005F3305 /* ListNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewController.swift; sourceTree = "<group>"; };
+		DC2086132215C048005F3305 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				DC2085FC2215BE15005F3305 /* AppDelegate.swift */,
-				DC2085FE2215BE15005F3305 /* ViewController.swift */,
+				DC2086112215C015005F3305 /* ListNotesTableViewController.swift */,
+				DC2086132215C048005F3305 /* AddNoteViewController.swift */,
 				DC2086002215BE15005F3305 /* Main.storyboard */,
 				DC2086062215BE18005F3305 /* Assets.xcassets */,
 				DC2086082215BE18005F3305 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2086142215C048005F3305 /* AddNoteViewController.swift in Sources */,
+				DC2086122215C015005F3305 /* ListNotesTableViewController.swift in Sources */,
 				DC2086052215BE15005F3305 /* Daily_Notes.xcdatamodeld in Sources */,
-				DC2085FF2215BE15005F3305 /* ViewController.swift in Sources */,
 				DC2085FD2215BE15005F3305 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
